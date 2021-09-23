@@ -1,0 +1,10 @@
+.post:hover{
+    background-color: #ff550049;
+    border: 2px solid #FF5300;
+    box-shadow: 0 1px 2px -2px #FF5300;
+    transition: all 0.1s ease-in;
+    
+}
+.post{
+    cursor: pointer;
+}

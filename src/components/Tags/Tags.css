@@ -1,0 +1,21 @@
+.tags{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tags .color-text{
+    background-color: lightgrey;
+    padding: 4px 8px;
+    color: rgb(90, 90, 90);
+    border-radius: 5px;
+}
+.tag-div{
+border: 1px solid lightgrey;
+padding: 7px;
+}
+.color-text:hover{
+    cursor: pointer;
+    background-color: #ff55007a;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}

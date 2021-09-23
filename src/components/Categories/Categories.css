@@ -1,0 +1,10 @@
+tr:hover{
+    background-color: #ff550065;
+    border-bottom: 1px solid #FF5300;
+}
+tr{
+    cursor: pointer;
+}
+td{
+    color: gray;
+}
