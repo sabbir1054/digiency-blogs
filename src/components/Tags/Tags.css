@@ -12,7 +12,7 @@
 border: 1px solid lightgrey;
 padding: 7px;
 }
-.color-text:hover{
+.tags .color-text:hover{
     cursor: pointer;
     background-color: #ff55007a;
     color: rgb(65, 65, 65);
