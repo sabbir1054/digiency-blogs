@@ -17,7 +17,7 @@ const Navigation = () => {
             </h4>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleShow}>
-            <i class="fas fa-bars"></i>
+            <i className="fas fa-bars"></i>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="d-none d-lg-flex m-auto nav-item">

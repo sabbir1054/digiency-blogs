@@ -30,11 +30,11 @@ const Latest = () => {
     },
   ];
   return (
-      <div className="all-post py-3 mb-5">
-          <h3 className="fw-bold pt-3 ps-3">Posts</h3>
-          {
-              postsData.map(post => <Post post={ post}/>)
-          }
+    <div className="all-post py-3 mb-5">
+      <h3 className="fw-bold pt-3 ps-3">Posts</h3>
+      {postsData.map((post) => (
+        <Post post={post} key={post.id} />
+      ))}
     </div>
   );
 };
